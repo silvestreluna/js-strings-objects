@@ -28,4 +28,11 @@ PrintToDOM('drink', iAmThursty(3));
 PrintToDOM('drink', iAmThursty(-23));
 
 
+console.log(1 === '1'); //false
+//console.log(1 == '1'); // true
+console.log(1  !== '2'); //true
 
+console.log('cats'.length); // how many characters in a string
+const quote = 'winter is coming'; 
+console.log(quote.indexOf('is') ); // indexOf will look for the position of a string/character
+console.log(quote.indexOf('bunny')); // if not found, will return a -1
